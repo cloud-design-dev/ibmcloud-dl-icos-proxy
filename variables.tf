@@ -34,12 +34,6 @@ variable "hostname" {
   default     = "us-south-cos"
 }
 
-variable "email" {
-  description = "Email used for Lets Encrypt certificate renewal notice."
-  type        = string
-  default     = ""
-}
-
 variable "private_icos_endpoint" {
   type = string
   description = "The ICOS endpoint. Default is us-south regional endpoint."
